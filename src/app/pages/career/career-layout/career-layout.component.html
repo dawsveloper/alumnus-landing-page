@@ -1,0 +1,22 @@
+<div class="flex flex-col">
+    <div class="flex flex-col place-items-center mt-8 mb-8 px-4">
+        <p class="font-bold text-dark-gray text-sm">Rekomendasi Lowongan Pekerjaan</p>
+        <p class="font-bold text-black text-2xl mt-4">Daftar Pekerjaan</p>
+    </div>
+    <app-career-item
+        [careerList]="careerList">
+    </app-career-item>
+    <div class="flex flex-col place-items-center p-16 mt-8 bg-dark-white">
+        <p class="font-bold text-black text-xl md:text-2xl mt-2 text-center">Belum Menemukan Pekerjaan Yang Sesuai?</p>
+        <p class="text-dark-gray mt-2 text-center text-sm md:text-base">Kami memiliki lebih banyak informasi lowongan pekerjaan di</p>
+        
+        <div class="flex flex-row gap-2 mt-8">
+            <div class="w-32">
+                <img src="../../../assets/images/google-play-badge.png">
+            </div>
+            <div class="w-32">
+                <img src="../../../assets/images/web-badge.png">
+            </div>
+        </div>
+    </div>
+</div>

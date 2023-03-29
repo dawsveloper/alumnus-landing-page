@@ -1,0 +1,12 @@
+<div class="max-w-md mx-auto bg-white overflow-hidden md:max-w-5xl">
+    <div class="md:flex md:justify-between">
+      <div class="md:shrink-0">
+        <img class="h-48 w-full md:object-fill md:h-full md:w-64" src="../../../../assets/images/ic-astro-glowing.svg" alt="Modern building architecture">
+      </div>
+      <div class="p-8 items-center">
+        <div *ngFor="let content of aboutContentList">
+            <p class="text-soft-black text-lg text-justify mt-4"> <span class="font-bold text-primary">{{content.title}} </span>{{content.subtitle}}</p>
+        </div>  
+    </div>
+    </div>
+  </div>

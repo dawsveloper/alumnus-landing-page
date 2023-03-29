@@ -1,0 +1,337 @@
+{
+  "home" : {
+      "header" : {
+          "imageUrl" : "../../../../assets/images/ic-header.svg",
+          "title" : "Saatnya Terhubung dengan Alumni Elektro UTM",
+          "subtitle" : "Segera daftarkan dirimu di web Astro UTM atau download aplikasi ASTROUTM dan mulai berinteraksi dengan alumni Elektro UTM"
+      }, 
+      "about" : [
+          {
+              "title" : "ASTRO",
+              "subtitle" : "adalah jaringan yang dibuat khusus untuk Alumni Teknik Elektro Universitas Trunojoyo Madura yang bertujuan sebagai wadah interaksi digital dan sosial antar Alumni"
+          },
+          {
+              "title" : "Visi",
+              "subtitle" : "dari kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional"
+          }
+      ],
+      "value" : [
+          {
+              "title" : "Brotherhood",
+              "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+              "type" : "BD"
+          },
+          
+          {
+              "title" : "Growth",
+              "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+              "type" : "GH"
+          },
+          
+          {
+              "title" : "Endless Communication",
+              "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+              "type" : "EC"
+          },      
+          {
+              "title" : "Connected",
+              "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+              "type" : "CD"
+          }
+      ]
+  },
+  "leader" : [
+      {
+          "id" : 1,
+          "name" : "Sohibun Nawawi",
+          "roleId" : 1,
+          "role" : "Ketua Umum",
+          "description" : "Bermimpilah sesuka hati tentang apa yang kamu inginkan, sebab itu hanya mimpi",
+          "imageUrl" : "../../../../assets/images/team/soheb.JPG",
+          "instagramUrl" : "https://www.instagram.com/sohib_alhamid",
+          "linkedInUrl" : "https://www.linkedin.com/in/sohibun-nawawi",
+          "facebookUrl" : "https://www.facebook.com/sohib.alnawawi"
+      },
+      {
+          "id" : 2,
+          "name" : "Arina Fitritul Fajariyah",
+          "roleId" : 2,
+          "role" : "Kepala Departemen Administrasi dan Keuangan",
+          "description" : "",
+          "imageUrl" : "../../../../assets/images/team/arina.jpg",
+          "instagramUrl" : "https://instagram.com/arinnnut",
+          "linkedInUrl" : "https://www.linkedin.com/in/arina-fitritul-fajariyah-76970b11a",
+          "facebookUrl" : "https://www.facebook.com/arinafitritulfajariyah"
+      },
+      {
+          "id" : 3,
+          "name" : "Ilham Alen Nugroho",
+          "roleId" : 3,
+          "role" : "Kepala Departemen Pengembangan Kelembagaan",
+          "description" : "",
+          "imageUrl" : "../../../../assets/images/team/boteng.jpg",
+          "instagramUrl" : "",
+          "linkedInUrl" : "",
+          "facebookUrl" : ""
+      },
+      {
+          "id" : 4,
+          "name" : "Muhamat Choirudin",
+          "roleId" : 4,
+          "role" : "Kepala Departemen Penguatan Jaringan dan SDM",
+          "description" : "",
+          "imageUrl" : "../../../../assets/images/team/udin.JPG",
+          "instagramUrl" : "",
+          "linkedInUrl" : "",
+          "facebookUrl" : ""
+      },
+      {
+          "id" : 5,
+          "name" : "Firdaus Al Fidai",
+          "roleId" : 5,
+          "role" : "Kepala Departemen Humas dan Publikasi",
+          "description" : "",
+          "imageUrl" : "../../../../assets/images/team/daus.jpeg",
+          "instagramUrl" : "https://instagram.com/firdaus.fidai",
+          "linkedInUrl" : "https://www.linkedin.com/in/firdaus-al-fidai",
+          "facebookUrl" : "https://www.facebook.com/firdaus.fidai"
+      }
+  ],
+  "member" : [
+      {
+          "id" : 6,
+          "name" : "Dina Zurayda",
+          "parentRoleId" : 2,
+          "roleId" : 5,
+          "role" : "Bendahara",
+          "imageUrl" : "../../../../assets/images/team/dina.jpg",
+          "instagramUrl" : "https://instagram.com/dinanid_",
+          "linkedInUrl" : "https://www.linkedin.com/in/dina-zurayda-bb1050130",
+          "facebookUrl" : "https://www.facebook.com/dynnaz"
+      },
+      {
+          "id" : 7,
+          "name" : "Agung Nugroho",
+          "parentRoleId" : 2,
+          "roleId" : 6,
+          "role" : "Sekertaris I",
+          "imageUrl" : "../../../../assets/images/team/agung.jpeg",
+          "instagramUrl" : "https://instagram.com/agungngrh__",
+          "linkedInUrl" : "",
+          "facebookUrl" : "https://www.facebook.com/agung.nggidil"
+      },
+      {
+          "id" : 8,
+          "name" : "Eliya Kristina Ningrum",
+          "parentRoleId" : 2,
+          "roleId" : 7,
+          "role" : "Sekertaris II",
+          "imageUrl" : "../../../../assets/images/team/eliya.jpg",
+          "instagramUrl" : "https://instagram.com/eliya.naa",
+          "linkedInUrl" : "https://www.linkedin.com/in/eliya-kristina-2684131a3",
+          "facebookUrl" : "https://www.facebook.com/eliyachriztiena.berbintangviirgoselamanya"
+      },
+      {
+          "id" : 9,
+          "name" : "Alfin Tejo",
+          "parentRoleId" : 3,
+          "roleId" : 8,
+          "role" : "Serabutan",
+          "imageUrl" : "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+          "instagramUrl" : "",
+          "linkedInUrl" : "",
+          "facebookUrl" : ""
+      },
+      {
+          "id" : 10,
+          "name" : "Faizal Agung Nugroho",
+          "parentRoleId" : 3,
+          "roleId" : 8,
+          "role" : "Serabutan",
+          "imageUrl" : "../../../../assets/images/team/faisal.jpg",
+          "instagramUrl" : "",
+          "linkedInUrl" : "",
+          "facebookUrl" : ""
+      },
+      {
+          "id" : 11,
+          "name" : "Leonyta Desy Ayu Puspitasari",
+          "parentRoleId" : 3,
+          "roleId" : 8,
+          "role" : "Serabutan",
+          "imageUrl" : "../../../../assets/images/team/leony.jpeg",
+          "instagramUrl" : "Https://www.instagram.com/shesleony/",
+          "linkedInUrl" : "https://linkedin.com/in/dapleony",
+          "facebookUrl" : "https://www.facebook.com/leonydap"
+      },
+      {
+          "id" : 12,
+          "name" : "Zainal Abidin",
+          "parentRoleId" : 5,
+          "roleId" : 12,
+          "role" : "Departemen Humas - Backend Developer",
+          "imageUrl" : "../../../../assets/images/team/zainal.jpeg",
+          "instagramUrl" : "",
+          "linkedInUrl" : "https://www.linkedin.com/in/zainal-abidin-8a56b0b9/",
+          "facebookUrl" : ""
+      }
+  ],
+  "career" : [
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 2,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      },
+      {
+          "id" : 1,
+          "jobName" : "UI Designer",
+          "jobType" : "On-Site",
+          "jobAvailability" : "Full-Time",
+          "jobPeriod" : "3 - 12 Bulan",
+          "rangeSalary" : "Rp 10,000,000 - Rp 15,000,000",
+          "description": "Responsible for good UI Design and research for better design and experience for user",
+          "level" : "Expert",
+          "companyName" : "PT Sinar Teknologi",
+          "location" : "Jakarta Selatan",
+          "postedDate" : "27 Februari 2023",
+          "endDate" : "5 Maret 2023"
+      }
+  ],
+  "news" : [
+      {
+          "id" : 1,
+          "title" : "How to Survive as a Digital Illustrator in Digital Era",
+          "content" : "",
+          "author" : "John Doe",
+          "authorJob" : "Admin",
+          "headlineImageUrl" : "https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+          "tag" : [
+              "Technology",
+              "Science",
+              "Digital"
+          ],
+          "publishedDate" : "25 February 2023, 16.00"
+      },  
+      {
+          "id" : 1,
+          "title" : "How to Survive as a Digital Illustrator in Digital Era",
+          "content" : "",
+          "author" : "John Doe",
+          "authorJob" : "Admin",
+          "headlineImageUrl" : "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "tag" : [
+              "AI",
+              "Security",
+              "Digital"
+          ],
+          "publishedDate" : "25 February 2023, 16.00"
+      },  
+      {
+          "id" : 1,
+          "title" : "How to Survive as a Digital Illustrator in Digital Era",
+          "content" : "",
+          "author" : "John Doe",
+          "authorJob" : "Admin",
+          "headlineImageUrl" : "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fG5ld3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+          "tag" : [
+              "Metaverse",
+              "Science",
+              "Analogy"
+          ],
+          "publishedDate" : "25 February 2023, 16.00"
+      }
+  ]
+}

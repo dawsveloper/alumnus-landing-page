@@ -1,0 +1,16 @@
+<div class="flex flex-col">
+    <div class="flex flex-row md:px-24 px-16 mt-16 mb-12">
+        <div class="flex flex-col md:basis-1/2 basis-full mx-auto">
+            <p class="text-5xl font-extrabold">{{headerContent?.title}}</p>
+            <p class="text-lg text-dark-gray mt-4">{{headerContent?.subtitle}}</p>
+            <div class="flex flex-col md:flex-row md:mt-8 mt-4 gap-4">
+                <button type="button" class="px-8 py-4 bg-primary hover:bg-dark-primary text-white rounded-lg">Registrasi</button>
+                <button type="button" class="px-8 py-4 bg-white border border-primary hover:bg-dark-primary text-primary hover:text-white rounded-lg">Download</button>
+            </div>
+        </div>
+        
+        <div class="flex flex-grow ">
+            <img src="{{headerContent?.imageUrl}}" alt="">
+        </div>
+    </div>
+</div>

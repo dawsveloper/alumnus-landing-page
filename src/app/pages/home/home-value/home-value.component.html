@@ -1,0 +1,49 @@
+<div class="bg-dark-white bg-opacity-50 py-12">
+    <div class="flex flex-col items-center">
+        <p class="font-bold text-soft-black text-2xl md:text-3xl mx-16">Core Value ASTRO</p>
+        <hr class="bg-dark-gray border-0 h-1 rounded w-1/12 mt-2 mb-12">
+
+        <div *ngFor="let item of valueList; index as i">
+            <div *ngIf="i%2 === 0; then firstTemplate else secondTemplate"></div>
+            
+        <ng-template #firstTemplate>
+            <div class="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg shadow-soft-gray px-8 py-8 mx-16 my-4">
+                <div class="w-20 md:w-28">
+                    <div class="bg-primary bg-opacity-50 rounded-lg text-white text-center text-2xl p-5 md:p-8 md:text-4xl">
+                        <fa-icon [icon]="item.type === 'BD' ? 
+                            icBrotherhood : item.type === 'GH' ?  
+                            icGrowth : item.type === 'EC' ? 
+                            icCommunication : item.type === 'CD' ? 
+                            icBridge  : icDefault"></fa-icon>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col mt-8 md:ml-8 md:mt-0">
+                    <p class="text-soft-black font-semibold md:text-lg">{{item.title}}</p>
+                    <p class="mt-3 text-soft-black text-sm md:text-lg text-justify">{{item.subtitle}}</p>
+                </div>
+            </div>
+        </ng-template>
+
+        <ng-template #secondTemplate>
+            <div class="flex flex-col-reverse md:flex-row items-center bg-white rounded-lg shadow-lg shadow-soft-gray px-8 py-8 mx-16 my-4">
+                <div class="flex flex-col mt-8 md:mr-8 md:mt-0">
+                    <p class="text-soft-black font-semibold text-lg">{{item.title}}</p>
+                    <p class="mt-3 text-soft-black text-sm md:text-lg text-justify">{{item.subtitle}}</p>
+                </div>
+                <div class="w-20 md:w-28">
+                    <div class="bg-primary bg-opacity-50 rounded-lg text-white text-center text-2xl p-5 md:p-8 md:text-4xl">
+                        <fa-icon [icon]="item.type === 'BD' ? 
+                            icBrotherhood : item.type === 'GH' ?  
+                            icGrowth : item.type === 'EC' ? 
+                            icCommunication : item.type === 'CD' ? 
+                            icBridge  : icDefault"></fa-icon>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        </div>
+    
+
+    </div>
+</div>
