@@ -9,7 +9,4 @@ export class AwsService {
 
   constructor() { }
 
-  uploadFile(file :any) {
-
-  }
 }
