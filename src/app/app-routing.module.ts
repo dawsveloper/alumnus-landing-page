@@ -8,11 +8,6 @@ import { HomeLayoutComponent } from './pages/home/home-layout/home-layout.compon
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {
-    path: '',
     component: HomeLayoutComponent
   },
   {
