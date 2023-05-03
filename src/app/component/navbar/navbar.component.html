@@ -18,24 +18,24 @@
       <div class="lg:flex flex-grow items-center mt-3" id="example-navbar-warning" 
         [ngClass]="{'open': toggleIsOpen, 'hidden': !toggleIsOpen, 'block': toggleIsOpen}">
         <ul class="flex flex-col mb-2 lg:flex-row list-none ml-auto items-center">
-            <li class="nav-item">
+            <li class="nav-item mb-4 md:mb-0">
                 <a class="px-3 flex items-center text-s no-underline
                 leading-snug text-soft-gray hover:font-semibold hover:text-primary active:text-primary" 
-                routerLink="/team" routerLinkActive="active" ariaCurrentWhenActive="page">
+                routerLink="/team" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="closeToggle()">
                 Tim Pengurus
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mb-4 md:mb-0">
                 <a class="px-3 flex items-center text-s no-underline
                 leading-snug text-soft-gray hover:font-semibold hover:text-primary active:text-primary" 
-                routerLink="/career" routerLinkActive="active" ariaCurrentWhenActive="page">
+                routerLink="/career" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="closeToggle()">
                 Lowongan Kerja
                 </a>
             </li>
-            <li class="nav-item hidden">
+            <li class="nav-item mb-4 md:mb-0 hidden">
                 <a class="px-3 flex items-center text-s no-underline
                 leading-snug text-soft-gray hover:font-semibold hover:text-primary active:text-primary" 
-                routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page">
+                routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="closeToggle()">
                 Berita
                 </a>
             </li>

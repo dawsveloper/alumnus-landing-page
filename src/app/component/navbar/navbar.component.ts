@@ -18,4 +18,8 @@ export class NavbarComponent {
   openToggle(){
     this.toggleIsOpen = !this.toggleIsOpen
   }
+
+  closeToggle() {
+    this.toggleIsOpen = false;
+  }
 }
