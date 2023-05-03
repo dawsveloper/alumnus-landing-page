@@ -309,6 +309,17 @@
         },
         {
             "id" : 25,
+            "name" : "Dhimas Bayu Mahendra",
+            "parentRoleId" : 4,
+            "roleId" : 14,
+            "role" : "UI/UX Designer",
+            "imageUrl" : "../../../../assets/images/team/mandan.jpeg",
+            "instagramUrl" : "https://instagram.com/dhimasbmh",
+            "linkedInUrl" : " https://instagram.com/dhimasbm",
+            "facebookUrl" : "https://www.linkedin.com/mwlite/in/dhimas-bayu-mahendra-469468171"
+        },
+        {
+            "id" : 26,
             "name" : "A Yunus Maulana",
             "parentRoleId" : 4,
             "roleId" : 16,
@@ -319,7 +330,7 @@
             "facebookUrl" : "https://www.facebook.com/ahmad.yunuzz"
         },
         {
-            "id" : 26,
+            "id" : 27,
             "name" : "Dimas Putra Liani",
             "parentRoleId" : 4,
             "roleId" : 16,
@@ -330,7 +341,7 @@
             "facebookUrl" : "https://www.facebook.com/dimas.putra.liani"
         },
         {
-            "id" : 27,
+            "id" : 28,
             "name" : "Mohammad Faizin Zaini",
             "parentRoleId" : 4,
             "roleId" : 16,
