@@ -2,28 +2,29 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     colors: {
-      'primary': '#1C64F2',
-      'dark-primary': '#0C4ECF',
-      'error' : '#E6194D',
-      'soft-error' : '#EB4770',
-      'success' : '#62D862',
-      'soft-success' : '#8BE28B',
+      'primary': '#3657D2',
+      'danger': '#E6194D',
+      'soft-danger': '#EB4770',
+      'success': '#62D862',
+      'soft-success': '#8BE28B',
+      'warning': '#FFA12E',
+      'soft-warning': '#FFB861',
       'white': '#FFFFFF',
       'dark-white': '#F5F5F5',
       'soft-gray': '#E8E9EB',
       'dark-gray': '#AAAAAA',
-      'black': '#333333',
-      'soft-black': '#636363'
+      'black': '#0F172A',
+      'soft-black': '#1E293B',
+      'light-black': '#374151'
     },
     extend: {
       fontFamily: {
-        sans : ['Nunito']
+        sans : ['Rubik']
       }
     }
   },
-  plugins: [require("tw-elements/dist/plugin")]
+  plugins: []
 }

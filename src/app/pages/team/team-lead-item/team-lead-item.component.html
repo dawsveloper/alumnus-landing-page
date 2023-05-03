@@ -3,18 +3,18 @@
         <div class="flex flex-col place-items-center p-4 transition ease-in-out hover:md:scale-110">
             <img src="{{leader.imageUrl}}"
                 class="rounded-full w-20 h-20 object-cover">
-            <p class="text-black font-bold text-lg mt-4">{{leader.name}}</p>
-            <p class="text-soft-black text-center text-xs mt-1 h-10">{{leader.role}}</p>
+            <p class="text-white font-bold text-lg mt-4">{{leader.name}}</p>
+            <p class="text-dark-gray text-center text-xs mt-1 h-10">{{leader.role}}</p>
             <div class="flex flex-row gap-3 place-items-center">
-                <a class="text-soft-black hover:text-black" target="blank" href="{{leader.instagramUrl}}"
+                <a class="md:text-light-black text-dark-gray hover:text-dark-gray" target="blank" href="{{leader.instagramUrl}}"
                     [ngClass]="leader.instagramUrl === '' ? 'pointer-events-none' : 'pointer-events-auto'">
                     <fa-icon [icon]="icInstagram"></fa-icon>
                 </a>
-                <a class="text-soft-black hover:text-black" target="blank" href="{{leader.facebookUrl}}"
+                <a class="md:text-light-black text-dark-gray hover:text-dark-gray" target="blank" href="{{leader.facebookUrl}}"
                     [ngClass]="leader.facebookUrl === '' ? 'pointer-events-none' : 'pointer-events-auto'">
                     <fa-icon [icon]="icFacebook"></fa-icon>
                 </a>
-                <a class="text-soft-black hover:text-black" target="blank" href="{{leader.linkedInUrl}}"
+                <a class="md:text-light-black text-dark-gray hover:text-dark-gray" target="blank" href="{{leader.linkedInUrl}}"
                     [ngClass]="leader.linkedInUrl === '' ? 'pointer-events-none' : 'pointer-events-auto'">
                     <fa-icon [icon]="icLinkedin"></fa-icon>
                 </a>

@@ -1,8 +1,9 @@
 <div class="flex flex-col">
+    <div class="flex flex-col place-items-center mt-8 mb-8 px-4">
+        <p class="font-bold text-white text-2xl">Berita ASTROMA</p>
+    </div>
     <app-news-highlight
-    [firstHighlight]="highlightList[0]"
-    [secondHighlight]="highlightList[1]"
-    [thirdHighlight]="highlightList[2]">
+    [highlight]="highlightList[0]">
     </app-news-highlight>
     <app-news-item
         [newsList]="newsList">

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContentModel } from 'src/app/model/content.model';
+import { AwsService } from 'src/app/services/aws.service';
 import { HomeService } from 'src/app/services/home.service';
 import { LocalService } from 'src/app/services/local.service';
 
@@ -11,9 +12,12 @@ import { LocalService } from 'src/app/services/local.service';
 })
 export class HomeLayoutComponent implements OnInit{
 
+  selectedFiles: any = '' 
+
   constructor(
     private localService :LocalService,
-    private homeService :HomeService
+    private homeService :HomeService,
+    private uploadService :AwsService
   ) {}
 
   headerData: any;
@@ -42,5 +46,14 @@ export class HomeLayoutComponent implements OnInit{
     this.headerData = response.header;
     this.aboutData = response.about as Array<ContentModel>;
     this.valueData = response.value as Array<ContentModel>;
+  }
+  
+  upload() {
+    const file = this.selectedFiles.item(0);
+    // this.uploadService.uploadFile(file);
+  }
+  
+  selectFile(event :any) {
+    this.selectedFiles = event.target.files;
   }
 }

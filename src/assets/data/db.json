@@ -3,39 +3,39 @@
         "header" : {
             "imageUrl" : "../../../../assets/images/ic-header.svg",
             "title" : "Saatnya Terhubung dengan Alumni Elektro UTM",
-            "subtitle" : "Segera daftarkan dirimu di web Astro UTM atau download aplikasi ASTROUTM dan mulai berinteraksi dengan alumni Elektro UTM"
+            "subtitle" : "Segera daftarkan dirimu di web Astroma atau download aplikasi ASTROMA dan mulai berinteraksi dengan alumni Elektro UTM"
         }, 
         "about" : [
             {
-                "title" : "ASTRO",
+                "title" : "ASTROMA",
                 "subtitle" : "adalah jaringan yang dibuat khusus untuk Alumni Teknik Elektro Universitas Trunojoyo Madura yang bertujuan sebagai wadah interaksi digital dan sosial antar Alumni"
             },
             {
                 "title" : "Visi",
-                "subtitle" : "dari kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional"
+                "subtitle" : "dari kehadiran ASTROMA untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional"
             }
         ],
         "value" : [
             {
                 "title" : "Brotherhood",
-                "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+                "subtitle" : "Kehadiran ASTROMA untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
                 "type" : "BD"
             },
             
             {
                 "title" : "Growth",
-                "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+                "subtitle" : "Kehadiran ASTROMA untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
                 "type" : "GH"
             },
             
             {
                 "title" : "Endless Communication",
-                "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+                "subtitle" : "Kehadiran ASTROMA untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
                 "type" : "EC"
             },      
             {
                 "title" : "Connected",
-                "subtitle" : "Kehadiran ASTRO untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
+                "subtitle" : "Kehadiran ASTROMA untuk meningkatkan kualitas dan kuantitas hubungan antar Alumni Elektro UTM secara personal dan profesional",
                 "type" : "CD"
             }
         ]
@@ -78,7 +78,7 @@
             "id" : 4,
             "name" : "Firdaus Al Fidai",
             "roleId" : 4,
-            "role" : "Kepala Departemen Humas dan Publikasi",
+            "role" : "Kepala Departemen Humas dan Teknologi",
             "description" : "",
             "imageUrl" : "../../../../assets/images/team/daus.jpeg",
             "instagramUrl" : "https://instagram.com/firdaus.fidai",
@@ -210,6 +210,17 @@
         },
         {
             "id" : 16,
+            "name" : "Luqman Hardianto",
+            "parentRoleId" : 4,
+            "roleId" : 11,
+            "role" : "Lead Backend Developer",
+            "imageUrl" : "../../../../assets/images/team/luqman.jpg",
+            "instagramUrl" : "",
+            "linkedInUrl" : "https://www.linkedin.com/in/luqman-hardianto/",
+            "facebookUrl" : "https://www.facebook.com/siharfos"
+        },
+        {
+            "id" : 17,
             "name" : "Zainal Abidin",
             "parentRoleId" : 4,
             "roleId" : 11,
@@ -218,17 +229,6 @@
             "instagramUrl" : "",
             "linkedInUrl" : "https://www.linkedin.com/in/zainal-abidin-8a56b0b9/",
             "facebookUrl" : ""
-        },
-        {
-            "id" : 17,
-            "name" : "Luqman Hardianto",
-            "parentRoleId" : 4,
-            "roleId" : 11,
-            "role" : "Backend Developer",
-            "imageUrl" : "../../../../assets/images/team/luqman.jpg",
-            "instagramUrl" : "",
-            "linkedInUrl" : "https://www.linkedin.com/in/luqman-hardianto/",
-            "facebookUrl" : "https://www.facebook.com/siharfos"
         },
         {
             "id" : 18,
@@ -246,7 +246,7 @@
             "name" : "Amirul Haqiqi Abdillah",
             "parentRoleId" : 4,
             "roleId" : 12,
-            "role" : "Frontend Developer",
+            "role" : "Lead Frontend Developer",
             "imageUrl" : "../../../../assets/images/team/qiqi.jpeg",
             "instagramUrl" : "https://www.instagram.com/haqiqiabdillah/",
             "linkedInUrl" : "https://www.linkedin.com/in/haqiqiabdillah/",
@@ -279,7 +279,7 @@
             "name" : "Rocky Aiman",
             "parentRoleId" : 4,
             "roleId" : 13,
-            "role" : "Mobile Developer",
+            "role" : "Lead Mobile Developer",
             "imageUrl" : "../../../../assets/images/team/rocky.jpeg",
             "instagramUrl" : "https://www.instagram.com/rocky_a07/",
             "linkedInUrl" : "https://www.linkedin.com/in/rocky-aiman-32659385/",
@@ -290,7 +290,7 @@
             "name" : "Ghoni Iswandi",
             "parentRoleId" : 4,
             "roleId" : 14,
-            "role" : "UI/UX Designer",
+            "role" : "Lead UI/UX Designer",
             "imageUrl" : "../../../../assets/images/team/ghoni.jpeg",
             "instagramUrl" : "https://instagram.com/ghoni_iswandi",
             "linkedInUrl" : "https://www.linkedin.com/in/ghoni-iswandi-457743208",
@@ -459,7 +459,7 @@
         {
             "id" : 1,
             "title" : "How to Survive as a Digital Illustrator in Digital Era",
-            "content" : "",
+            "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin varius odio, malesuada vulputate massa ultrices quis. Nam non consectetur diam, sed suscipit ante. Aenean nec quam ut est vestibulum porta non non magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur blandit tempus velit, et iaculis diam condimentum nec. Suspendisse et tortor gravida, consequat ex ut, porttitor nisl. Mauris lorem neque, bibendum a accumsan pretium, efficitur at felis. Integer mollis leo tellus, ut fermentum mauris auctor et. Nullam orci magna, posuere eget rhoncus ac, tristique ac ante. Mauris auctor faucibus magna sit amet volutpat. Pellentesque eros odio, faucibus non ornare quis, tempus et augue. Curabitur ac augue libero. Curabitur facilisis mauris eget nunc congue ultricies.",
             "author" : "John Doe",
             "authorJob" : "Admin",
             "headlineImageUrl" : "https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
@@ -471,9 +471,9 @@
             "publishedDate" : "25 February 2023, 16.00"
         },  
         {
-            "id" : 1,
+            "id" : 2,
             "title" : "How to Survive as a Digital Illustrator in Digital Era",
-            "content" : "",
+            "content" : "Proin sit amet finibus purus. Vivamus nunc erat, vestibulum id facilisis sed, convallis sed ligula. Curabitur a nisi mauris. Ut ullamcorper eget augue interdum ullamcorper. Curabitur diam nisi, luctus eu elit vel, dignissim iaculis eros. Nam mollis est at lacinia lobortis. Nam ultricies molestie suscipit. Nunc ornare odio sit amet odio dapibus dapibus. Nunc vitae hendrerit ante, quis elementum leo. Etiam condimentum neque quis elit semper tincidunt. Sed maximus eget risus et cursus. Maecenas sed libero mauris. Curabitur nec massa laoreet, iaculis justo laoreet, eleifend neque. Integer porta augue quis accumsan varius. Phasellus semper felis id bibendum consequat. Etiam a convallis tellus.",
             "author" : "John Doe",
             "authorJob" : "Admin",
             "headlineImageUrl" : "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
@@ -482,12 +482,12 @@
                 "Security",
                 "Digital"
             ],
-            "publishedDate" : "25 February 2023, 16.00"
+            "publishedDate" : "20 February 2023, 15.00"
         },  
         {
-            "id" : 1,
+            "id" : 3,
             "title" : "How to Survive as a Digital Illustrator in Digital Era",
-            "content" : "",
+            "content" : "Maecenas eleifend vitae libero id scelerisque. Praesent ultricies libero in odio blandit, eu feugiat neque dapibus. In dapibus, massa sollicitudin dignissim laoreet, est mauris luctus turpis, ut vestibulum dolor purus sed nisi. Integer eros elit, pharetra sit amet volutpat at, pulvinar et lacus. Aliquam vel augue erat. Nunc sit amet porta risus. Donec sollicitudin libero at mauris consequat finibus. Mauris eget quam vel orci consequat cursus bibendum nec lorem. Nullam egestas diam vel purus interdum mollis. Praesent vitae commodo ligula. Quisque id nisl non lacus varius semper eget ac elit. Phasellus ex eros, porttitor sit amet faucibus scelerisque, venenatis quis risus. Praesent hendrerit, nisl a elementum cursus, tortor neque consectetur enim, eget gravida magna est non dolor. Integer condimentum vestibulum massa non faucibus. Integer sagittis euismod nulla, quis dignissim ex accumsan ut.",
             "author" : "John Doe",
             "authorJob" : "Admin",
             "headlineImageUrl" : "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fG5ld3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",

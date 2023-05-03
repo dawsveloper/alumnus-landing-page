@@ -1,18 +1,18 @@
-<nav class="w-full sticky top-0 z-50 py-2 px-16 shadow-lg flex flex-wrap items-center justify-between bg-white">
+<nav class="w-full sticky top-0 z-50 py-2 px-8 md:px-16 shadow shadow-soft-black flex flex-wrap items-center justify-between bg-black">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full relative flex justify-between lg:w-auto  lg:static lg:block lg:justify-start">
         <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap 
         uppercase text-white" routerLink="/">
-          <div class="w-10/12 sm:w-10/12">
+          <div class="w-1/2 md:w-5/12">
             <img
-              src="./assets/images/ic-astro.svg"
+              src="./assets/images/ic-astroma-h.svg"
               loading="lazy"
             />
           </div>
         </a>
         
-        <button (click)="openToggle()" class="cursor-pointer text-xl leading-none px-3 py-1 rounded bg-transparent block lg:hidden outline outline-dark-white hover:bg-dark-white focus:outline-none focus:ring-2 focus:ring-white dark:text-dark-gray dark:hover:bg-white dark:focus:bg-white" type="button">
-            <svg class="w-6 h-6 fill-dark-gray" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        <button (click)="openToggle()" class="cursor-pointer text-xl leading-none px-3 py-1 rounded bg-transparent block lg:hidden outline outline-soft-black hover:bg-soft-black focus:outline-none focus:ring-2 focus:ring-primary" type="button">
+            <svg class="w-6 h-6 fill-light-black" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
         </button>
       </div>
       <div class="lg:flex flex-grow items-center mt-3" id="example-navbar-warning" 
@@ -20,29 +20,29 @@
         <ul class="flex flex-col mb-2 lg:flex-row list-none ml-auto items-center">
             <li class="nav-item">
                 <a class="px-3 flex items-center text-s no-underline
-                leading-snug text-dark-gray hover:text-primary hover:font-bold active:text-primary" 
+                leading-snug text-soft-gray hover:font-semibold hover:text-primary active:text-primary" 
                 routerLink="/team" routerLinkActive="active" ariaCurrentWhenActive="page">
                 Tim Pengurus
                 </a>
             </li>
             <li class="nav-item">
                 <a class="px-3 flex items-center text-s no-underline
-                leading-snug text-dark-gray hover:text-primary hover:font-bold active:text-primary" 
+                leading-snug text-soft-gray hover:font-semibold hover:text-primary active:text-primary" 
                 routerLink="/career" routerLinkActive="active" ariaCurrentWhenActive="page">
                 Lowongan Kerja
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item hidden">
                 <a class="px-3 flex items-center text-s no-underline
-                leading-snug text-dark-gray hover:text-primary hover:font-bold active:text-primary" 
+                leading-snug text-soft-gray hover:font-semibold hover:text-primary active:text-primary" 
                 routerLink="/news" routerLinkActive="active" ariaCurrentWhenActive="page">
                 Berita
                 </a>
             </li>
             <li class="nav-item ml-2">
-                <button type="button" class="rounded px-4 py-2 text-sm text-white bg-primary hover:bg-dark-primary">Login</button>
+                <button type="button" class="rounded px-4 py-2 text-sm text-white bg-primary hover:bg-primary-700">Login</button>
             </li>
         </ul>
       </div>
     </div>
-  </nav>
+</nav>

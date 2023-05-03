@@ -1,7 +1,7 @@
 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
     <div *ngFor="let career of careerList">
-        <div class="transition ease-in-out flex flex-col group text bg-white shadow-lg rounded-lg p-8 mx-4 my-2 md:mx-4 md:my-4 hover:md:bg-primary hover:md:scale-105">
-            <p class="font-bold text-black group-hover:md:text-white text-lg">{{career.jobName}}</p>
+        <div class="transition ease-in-out flex flex-col group text bg-soft-black shadow-lg rounded-lg p-8 mx-4 my-2 md:mx-4 md:my-4 hover:md:bg-primary hover:md:scale-105">
+            <p class="font-bold text-white group-hover:md:text-white text-lg">{{career.jobName}}</p>
             <div class="flex gap-4 mt-1">
                 <p class="font-thin text-dark-gray group-hover:md:text-white text-xs">
                     <span class="mr-1"><fa-icon [icon]="icTime"></fa-icon></span>
@@ -12,14 +12,14 @@
                     {{career.jobType}}
                 </p>
             </div>
-            <hr class="bg-soft-gray group-hover:md:bg-white h-px border-0 my-6">
-            <p class="text-black group-hover:md:text-white h-24 text-sm text-justify">{{career.description}}</p>
-            <p class="text-soft-black font-bold group-hover:md:text-white text-sm text-justify mt-4">{{career.companyName}}</p>
+            <hr class="bg-light-black group-hover:md:bg-white h-px border-0 my-6">
+            <p class="text-dark-white group-hover:md:text-white h-24 text-sm text-justify">{{career.description}}</p>
+            <p class="text-dark-white font-bold group-hover:md:text-white text-sm text-justify mt-4">{{career.companyName}}</p>
             <p class="font-thin text-dark-gray group-hover:md:text-white text-xs mt-1">
                 <span class="mr-1"><fa-icon [icon]="icLocation"></fa-icon></span>
                 {{career.location}}
             </p>
-            <button type="button" class="rounded-lg font-bold border border-soft-gray text-soft-black group-hover:md:bg-white py-2 mt-4 text-sm">Apply</button>
+            <button type="button" class="rounded-lg font-bold border border-primary text-primary group-hover:md:bg-white py-2 mt-4 text-sm">Apply</button>
         </div>
     </div>
 </div>

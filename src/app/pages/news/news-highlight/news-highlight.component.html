@@ -1,55 +1,17 @@
-<div class="flex flex-col md:flex-row">
-    <div class="flex flex-col h-auto basis-2/3">
-        <div class="relative">
-            <img src="{{firstHighlight.headlineImageUrl}}" class="w-full h-96 object-cover">
-            <div class="absolute bg-white bg-opacity-70 py-4 px-2.5 left-0 bottom-0 right-0">
-                <p class="font-bold text-black text-lg">{{firstHighlight.title}}</p>
-                <div class="flex mt-2 gap-8">
-                    <p class="text-soft-black text-xs">
-                        <span><fa-icon [icon]="icAuthor" size="sm" class="mr-1"></fa-icon></span>
-                        {{firstHighlight.author}}
-                    </p>
-                    <p class="text-soft-black text-xs">
-                        <span><fa-icon [icon]="icTime" size="sm" class="mr-1"></fa-icon></span>
-                        {{firstHighlight.publishedDate}}
-                    </p>
-                </div>
-            </div>
+<div class="flex flex-col md:flex-row px-8 md:px-16">
+    <img src="{{highlight.headlineImageUrl}}" class="w-1/2 h-80 object-cover rounded-lg">
+    <div class="flex flex-col ml-8">
+        <div class="flex gap-4">
+            <p class="text-dark-gray text-xs">
+                <span><fa-icon [icon]="icAuthor" class="mr-1"></fa-icon></span>
+                {{highlight.author}}
+            </p>
+            <p class="text-dark-gray text-xs">
+                <span><fa-icon [icon]="icTime" class="mr-1"></fa-icon></span>
+                {{highlight.publishedDate}}
+            </p>
         </div>
-    </div>
-    <div class="grid grid-cols-1 flex-grow place-items-center max-h-96">
-        <div class="relative w-full">
-            <img src="{{secondHighlight.headlineImageUrl}}" class="object-cover w-full h-48">
-            <div class="absolute bg-white bg-opacity-70 py-4 px-2.5 left-0 bottom-0 right-0">
-                <p class="font-bold text-black">{{firstHighlight.title}}</p>
-                <div class="flex mt-2 gap-8">
-                    <p class="text-soft-black text-xs">
-                        <span><fa-icon [icon]="icAuthor" size="sm" class="mr-1"></fa-icon></span>
-                        {{secondHighlight.author}}
-                    </p>
-                    <p class="text-soft-black text-xs">
-                        <span><fa-icon [icon]="icTime" size="sm" class="mr-1"></fa-icon></span>
-                        {{secondHighlight.publishedDate}}
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="relative w-full">
-            <img src="{{thirdHighlight.headlineImageUrl}}" class="object-cover w-full h-48">
-            <div class="absolute bg-white bg-opacity-70 py-4 px-2.5 left-0 bottom-0 right-0">
-                <p class="font-bold text-black ">{{firstHighlight.title}}</p>
-                <div class="flex mt-2 gap-8">
-                    <p class="text-soft-black text-xs">
-                        <span><fa-icon [icon]="icAuthor" size="sm" class="mr-1"></fa-icon></span>
-                        {{thirdHighlight.author}}
-                    </p>
-                    <p class="text-soft-black text-xs">
-                        <span><fa-icon [icon]="icTime" size="sm" class="mr-1"></fa-icon></span>
-                        {{thirdHighlight.publishedDate}}
-                    </p>
-                </div>
-            </div>
-        </div>
-      
+        <p class="mt-2 text-white text-3xl font-bold">{{highlight.title}}</p>
+        <p class="mt-4 h-24 text-dark-white text-justify text-sm text-ellipsis overflow-hidden ...">{{highlight.content}}</p>
     </div>
 </div>

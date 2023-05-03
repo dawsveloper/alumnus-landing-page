@@ -1,6 +1,6 @@
 import { Component, Input} from '@angular/core';
 import { NewsModel } from 'src/app/model/news.model';
-import { faUserLarge, faClock } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faClock } from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-news-highlight',
@@ -9,11 +9,9 @@ import { faUserLarge, faClock } from '@fortawesome/free-solid-svg-icons'
 })
 export class NewsHighlightComponent {
 
-  icAuthor = faUserLarge;
+  icAuthor = faUser;
   icTime = faClock;
 
-  @Input() firstHighlight :NewsModel = new NewsModel();
-  @Input() secondHighlight :NewsModel = new NewsModel();
-  @Input() thirdHighlight :NewsModel = new NewsModel();
+  @Input() highlight :NewsModel = new NewsModel();
   
 }
